@@ -1,9 +1,10 @@
 ﻿using System.Device.Gpio;
 using System.Device.I2c;
-using Iot.Device.CharacterLcd;
 using Iot.Device.Mcp23xxx;
 
+#pragma warning disable IDE0130 // Namespace does not match folder structure
 namespace Iot.Device.CharacterLcd;
+#pragma warning restore IDE0130 // Namespace does not match folder structure
 
 public sealed class Mcp23008LcdInterface : LcdInterface
 {
