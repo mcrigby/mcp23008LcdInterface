@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+    <AssemblyName>CutilloRigby.Device.MCP23008LcdInterface</AssemblyName>
+    <RootNamespace>CutilloRigby.Device.MCP23008LcdInterface</RootNamespace>
+    <Authors>Martin Cutillo-Rigby</Authors>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <PackageId>CutilloRigby.Device.MCP23008LcdInterface</PackageId>
+    <Product>CutilloRigby.Device.MCP23008LcdInterface</Product>
+    <Version>1.0.0</Version>
+    <Description>MCP23008 Character Lcd Interface. For use with AdaFruit I2C LCD Character Backpack.</Description>
+    <OutputType>Library</OutputType>
+    <StartupObject />
+    <IsPackable>true</IsPackable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Iot.Device.Bindings" Version="4.0.1" />
+  </ItemGroup>
+
+</Project>
